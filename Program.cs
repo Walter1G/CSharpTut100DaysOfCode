@@ -26,14 +26,21 @@ namespace CSharpTut
 
             //*****************************to practice break and continue in for loop***********//
 
-            for (int i = 0; i < 100; i++)
+            //for (int i = 0; i < 100; i++)
+            //{
+
+            //    if (i == 5)
+            //        continue;
+            //    Console.WriteLine(i);
+
+
+            //}
+
+            //To write the ASCII value of each character
+
+            for (int i=0; i<=256; i++)
             {
-
-                if (i == 5)
-                    continue;
-                Console.WriteLine(i);
-
-
+                Console.WriteLine("{0} : {1}", (char)i, i);
             }
 
             Console.ReadLine();
