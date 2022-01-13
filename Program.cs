@@ -38,10 +38,24 @@ namespace CSharpTut
 
             //To write the ASCII value of each character
 
-            for (int i=0; i<=256; i++)
+            //for (int i=0; i<=256; i++)
+            //{
+            //    Console.WriteLine("{0} : {1}", (char)i, i);
+            //}
+
+            // sum up all numbers a user Enters 
+            int sum = 0;
+            Console.WriteLine("Enter all numbers to sum, then input '0' to get Result");
+            while(true)
             {
-                Console.WriteLine("{0} : {1}", (char)i, i);
+                int Num = int.Parse(Console.ReadLine());
+                
+                if (Num == 0)
+                    break;
+                sum += Num;
+                
             }
+            Console.WriteLine("Sum = {0}", sum);
 
             Console.ReadLine();
 
