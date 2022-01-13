@@ -26,15 +26,15 @@ namespace CSharpTut
 
             //*****************************to practice break and continue in for loop***********//
 
-            //for (int i=0; i<100; i++)
-            //{
+            for (int i = 0; i < 100; i++)
+            {
 
-            //    if (i == 5)
-            //        continue;
-            //    Console.WriteLine(i);
+                if (i == 5)
+                    continue;
+                Console.WriteLine(i);
 
 
-            //}
+            }
 
             Console.ReadLine();
 
