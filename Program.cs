@@ -44,18 +44,23 @@ namespace CSharpTut
             //}
 
             // sum up all numbers a user Enters 
-            int sum = 0;
-            Console.WriteLine("Enter all numbers to sum, then input '0' to get Result");
-            while(true)
-            {
-                int Num = int.Parse(Console.ReadLine());
+            //int sum = 0;
+            //Console.WriteLine("Enter all numbers to sum, then input '0' to get Result");
+            //while(true)
+            //{
+            //    int Num = int.Parse(Console.ReadLine());
                 
-                if (Num == 0)
-                    break;
-                sum += Num;
+            //    if (Num == 0)
+            //        break;
+            //    sum += Num;
                 
-            }
-            Console.WriteLine("Sum = {0}", sum);
+            //}
+            //Console.WriteLine("Sum = {0}", sum);
+
+            //****.......counting number of words on a sentence.
+            string sentence = Console.ReadLine();
+            string[] words = sentence.Split(' ');
+            Console.WriteLine(words.Length);
 
             Console.ReadLine();
 
